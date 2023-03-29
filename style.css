@@ -1,0 +1,102 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+#title{
+    font-size: 40;
+    text-align: center;
+
+    color: #313131;
+}
+
+#ShowButton{
+    margin: 0 auto;
+    display: block;
+
+    width: 75px;
+    height: 30px;
+
+    background-color: #979797;
+    color: #313131;
+    border-color:#979797;
+
+    cursor: pointer;
+
+    transition-duration: 0.2s;
+    
+}
+
+#ShowButton:hover, .EnterButton:hover{
+    transition-duration: 0.2s;
+    background-color: #787878;
+    
+}
+
+#CalculatorDiv{
+    margin: 50px 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: gray;
+
+    transition-duration: 1s;
+}
+
+.input{
+    width: 200px;
+    height: 35px;
+
+    border: 1px solid #DD37B4;
+}
+
+.calc{
+    width: 35px;
+    height: 35px;
+
+    background-color: #FFBE73;
+    border-color:  #FFBE73;
+    transition-duration:0.1s ;
+}
+.calc:hover{
+    transition-duration: 0.3s;
+    background-color: #FFB073;
+    border-color: #FFB073;
+}
+
+.firstinput, .secondinput{
+    margin: 10px;
+    transition-duration: 0.5s;
+}
+
+.firstinput:focus, .secondinput:focus{
+    width: 200px;
+    height: 45px;
+    outline: #DD37B4;
+    border-radius: 6px;
+    transition-duration: 0.5s ;
+}
+
+.EnterButton{
+    margin-bottom: 10px;
+    width: 75px;
+    height: 30px;
+
+    background-color: #979797;
+    color: #313131;
+    border-color:#979797;
+
+    cursor: pointer;
+
+    transition-duration: 0.2s;
+}
+
+#ResultText{
+    text-align: center;
+}
+
+.divka{
+    padding: 0 0 10px 0;
+    display: flex;
+    flex-direction: row;
+}
